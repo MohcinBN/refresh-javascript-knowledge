@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <h1>Employee Management UI</h1>
+        <form id="employee-form" method="POST">
+            <div class="row">
+              <div class="eleven columns">
+                <label for="full_name">Your Full Name</label>
+                <input class="u-full-width" type="text" placeholder="Enter your full name" id="full_name">
+              </div>
+            </div>
+            <input class="button-primary add-employee" type="submit" value="Add Employee">
+        </form>
+
+
+        <div>
+          <ul class="collection-employee">
+            <li class="eployee-item">Mohcin <a href="#" class="button delete-employee">x</a></li>
+          </ul>
+
+          <a href="#" class="button delete-all">Remove all</a>
+        </div>
+    </div>
+
+
+    <script src="project.js"></script>
+    
+</body>
+</html>
